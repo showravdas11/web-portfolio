@@ -1,9 +1,16 @@
 body{
+    margin: 0;
     font-family: 'Yusei Magic', sans-serif;
 }
 
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color:dimgray;
 }
 .name-highlight{
     color: orange;
@@ -16,4 +23,30 @@ h1{
 }
 .half-width img{
     width: 100%;
+    padding: 2%;
+   
+}
+.top-banner{
+    background-image: url("top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+   padding-bottom: 150px;
+}
+.button{
+   text-decoration: none;
+   background-image: linear-gradient(lightsalmon, tomato);
+   padding: 10px 20px;
+   border-radius: 5px;
+   color: white;
+   font-size: 700;
+}
+.dream-area{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.orange{
+    color: orange;
 }
